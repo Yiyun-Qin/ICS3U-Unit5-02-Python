@@ -8,7 +8,7 @@
 def triangle(base, height):
     # This function calculates the area of the triangle
     area = 1 / 2 * base * height
-    print("The area of the triangle is {} cm².".format(area))
+    print("The area of the triangle is {:,.2f} cm².".format(area))
     print("\nDone.")
 
 
